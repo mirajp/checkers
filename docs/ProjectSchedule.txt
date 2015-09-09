@@ -1,0 +1,45 @@
+I suggest that you spend the first three days thinking about the project and choosing a game. That will leave
+ four weeks. The project is due the night of Sunday, November 3, by 11:59 PM. Barring extreme circumstances,
+ there will be no extensions. The late penalty will be 1.5 points per day rounded up (and that can add up
+ fast).
+
+Week #1:
+•	Implement your data structures and your legal moves function. (This is much harder for Checkers than for
+ Othello.) Efficiency matters more than elegance here!
+•	Create and test a function to display the board.
+•	Provide yourself a convenient way to specify any board position and whose turn it is, and test the legal
+ move function thoroughly (especially for Checkers).
+
+Week #2:
+•	Implement a function to apply a move to a position.
+•	Create an ASCII interface and enable your program to play a complete game:
+o	Allow the user to select who makes the first move.
+o	On each of the computer's moves, choose between all moves randomly (or choose the move that maximizes a
+ very simple heuristic).
+o	On each of the players' move, give the option of listing all the legal moves (or list them automatically)
+ and verify that the player selects a legal move.
+o	Display the board after every move and check to see if the game is over.
+o	Provide an option for the computer to play against itself.
+
+Week #3:
+•	Implement the alpha-beta search and iterative deepening (this is difficult for both projects):
+o	If you implement a single recursive function, make sure you are handling the alpha and beta parameters
+ correctly (especially if the perspective changes, as in negamax).
+o	Make sure your program is handling the time limit correctly.
+o	Provide yourself the option of producing an ASCII representation of the searched portion of the game
+ space; this can be very useful for debugging.
+•	Implement a semi-simple heuristic and test your program thoroughly from various starting positions.
+
+Week #4:
+•	Experiment with your heuristic function and discover one that makes your program play great! (This is
+ somewhat harder for Othello than for Checkers.)
+•	Remember that the heuristic function should be efficient.
+•	If you organized your program well, you should be able to make it play itself using various heuristics
+ against each other to see which ones perform the better than others.
+•	Reread the project requirements carefully and make sure you are not forgetting anything.
+
+Feel free to read up on the game of your choice (in fact, I strongly advise it). For those of you
+ implementing Checkers, I find that Jim Loy's Checkers website is helpful. It is also possible to play
+ Chinook on-line! For Othello, I find that Gunnar Andersson's Othello website is helpful, and I recommend
+ downloading his free Othello program called Zebra. You can also play both games against other humans at
+ Yahoo games (Othello is known as Reversi there).
